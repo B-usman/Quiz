@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: poppins;
+}
+
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welc{
+    width: 80%;
+    right: 10%;
+    left: 10%;
+    position: relative;
+    height: auto;
+    border-radius: 4px;
+}
+
+.welc-head, .head-content, .time-div, .name {
+    border-bottom:2px solid green;
+}
+
+.time{
+    color: red;
+}
+
+.time:hover{
+    color: white;
+}
+
+.input-name{
+    width: 70%;
+    height: 60px;
+    background-color: rgba(253, 253, 253, 0);
+    border: 2px solid green;
+}
+
+.input-name:focus {
+    outline: none;
+}
+
+
+
+/* Quiz Section */
+
+.progress{
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    position: relative;
+}
+
+.question1, .question2, .question3, .question4, .completion, .result{
+    width: 70%;
+    right: 15%;
+    left: 15%;
+    position: relative;
+    height: auto;
+    border-radius: 4px;
+}
+
+.q-head, .options, .title, .comp-body, .res-head{
+    border-bottom:2px solid green;
+}
+
+.opt1, .opt2, .opt3, .opt4{
+    border: 2px solid green;
+}
+
+.q2, .q3, .q4, .cmp{
+    display: none;
+}
+
+.res{
+    display: none;
+}
